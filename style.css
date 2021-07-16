@@ -1,0 +1,104 @@
+
+    
+    
+    p{
+        color: black;
+        text-align: center;
+        font-size: 40px;
+    }
+    input{
+        text-align: center;
+    }
+    .listans {
+        width: 220px;
+        height: 400px;
+        align-items: center;
+      }
+    .body {
+     
+        align-items: center;
+      }
+    h3{
+       color: #9709cf; 
+    }
+    h4{
+        color: white; 
+     }
+      button {
+        font-size: 15px;
+        padding: 20px;
+        width: 200px;
+        margin-top: 3px;
+        display: inline-block;
+        background-color: #9709cf;
+        border: 6px double white;
+        color: white;
+        align-items: center;
+        
+      }
+    
+      button:hover{
+          box-shadow: 4px 3px 6px #9709cf;
+      }
+    
+    #firstStart{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #timer{
+        color: black;
+        font-size: 20px;
+        text-align: center;
+        margin-top: -2px;
+
+    }
+  
+    
+    #fifthscorePage{
+        background-color: #cd97e2;
+        color: rgb(54, 51, 51);
+    }
+    
+   
+    #initials{
+        display: inline-block;
+    }
+    
+   
+    .Questionsls {
+        position: absolute;
+        position: center;
+      }
+      
+      .next {
+        margin-top: -20px;
+        color: rgb(117, 112, 112);
+        font-weight: bold;
+        font-size: 18px;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+      }
+      
+      .next {
+        right: 0;
+        border-radius: 4px 0 0 4px;
+      }
+      
+      .next:hover {
+        background-color: rgba(211, 98, 240, 0.8);
+      }
+      
+      
+      
+      .numbertext {
+        color: #222020;
+        font-size: 16px;
+        position: absolute;
+        top: 0; left: 0; width: 100px; text-align:left;
+       
+      }
+      

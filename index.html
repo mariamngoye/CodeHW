@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Quiz Challenge</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="myQuestions">
+        <div id="firstStart">
+    <h1>Coding Quiz Challenge</h1>
+    <h3>Try to answer the following Code-related questions within the time limit</h3>
+    <button id="startBtn"  onclick="plusSlides(1)">Start Code Quiz</button>
+    </div>
+        
+    
+    <h3 id="highscoreBtn" onclick="highscore()" style="position: absolute; top: 0; left: 0; width: 100px; text-align:left;">High Scores</h3>
+        
+    <div id="time" style="position: absolute; top: 0; right: 0; width: 100px; text-align:right;">Time left</div>
+    </div>
+    <div id="timer" style="position: absolute; top: 2; right: 0; width: 100px; text-align:right;">
+    </div>
+
+    <div class="Questionsls">
+
+        <div class="myQuestions">
+          <div class="numbertext">1 / 8</div>
+          <div id="questions" style=" text-align:center;"><p>CSS stands for -</p></div>
+          <div class="listans" style=" align-items: center ">
+              <button id="aans" >A. Cascade style sheets</button>
+              <button id="bans" >B. Color and style sheets</button>
+              <button id="cans" >C. Cascading style sheets</button>
+              <button id="dans" >D. None of the above</button>
+             correctAnswer: "c"
+          </div>
+                  <br>     
+           <h3 id="result1"></h3>
+        </div>
+        
+        <div class="myQuestions">
+        <div class="numbertext">2 / 7</div>
+        <div class="questions" style=" text-align:center;"><p>What does DOM stand for?</p></div>
+        <div class="listans" style=" align-items: center ">
+            <button id="aans2"  >A. Document Object Model</button>
+            <button id="bans2"  >B. Display Object Management</button>
+            <button id="cans2"  >C. Digital Ordinance Model</button>
+            <button id="dans2"  >D. Desktop Oriented Mode</button>
+           correctAnswer: "a"
+        </div>
+                <br>     
+         <h3 id="result2"></h3>
+                   
+        </div>
+        
+          <div class="myQuestions">
+            <div class="numbertext">3 / 7</div>
+            <div class="questions" style=" text-align:center;"><p>The property in CSS used to change the background color of an element is -</p></div>
+            <div class="listans" style=" align-items: center ">
+                <button id="aans3"  >A. bgcolor</button>
+                <button id="bans3"  >B. color</button>
+                <button id="cans3"  >C. background-color</button>
+                <button id="dans3"  >D. All of the above</button>
+               correctAnswer: "b"
+            </div>
+                    <br>     
+             <h3 id="result3"></h3>
+                       
+            </div>
+        
+          <div class="myQuestions">
+            <div class="numbertext">4 / 7</div>
+            <div class="questions" style=" text-align:center;"><p>The CSS property used to control the element's font-size is -</p></div>
+            <div class="listans" style=" align-items: center ">
+                <button id="aans4"  >A. text-style</button>
+                <button id="bans4"  >B. text-size</button>
+                <button id="cans4"  >C. font-size</button>
+                <button id="dans4"  >D. None of the above</button>
+                correctAnswer: "c"
+            </div>
+               <br>     
+               <h3 id="result4"></h3>
+                              
+               </div>  
+        
+        <div class="myQuestions">
+            <div class="numbertext">5 / 7</div>
+            <div class="questions" style=" text-align:center;"><p>Which of the following CSS property is used to set the background image of an element?</p></div>
+            <div class="listans" style=" align-items: center ">
+                   <button id="aans5" onclick="plusQuestion(1)" >A. background-attachment</button>
+                   <button id="bans5" onclick="plusQuestion(1)" >B. background-image</button>
+                   <button id="cans5" onclick="plusQuestion(1)" >C. background-color</button>
+                   <button id="dans5" onclick="plusQuestion(1)" >D. None of the above</button>
+                   correctAnswer: "b"
+            </div>
+               <br>     
+                <h3 id="result5"></h3>
+                                  
+               </div>    
+          
+        <div class="myQuestions">
+            <div class="numbertext">6 / 7</div>
+        
+            <div class="questions" style=" text-align:center;"><p>The HTML attribute used to define the inline styles is -</p></div>
+            <div class="listans" style=" align-items: center ">
+                   <button id="aans6" onclick="plusQuestion(1)" >A. style</button>
+                   <button id="bans6" onclick="plusQuestion(1)" >B. styles</button>
+                   <button id="cans6" onclick="plusQuestion(1)" >C. class</button>
+                   <button id="dans6" onclick="plusQuestion(1)" >D. None of the above</button>
+                   correctAnswer: "a"
+               </div>
+               <br>     
+               <h3 id="result6"></h3>
+                              
+               </div>    
+        </div>
+        
+        <div class="myQuestions">
+            <div class="numbertext">7 / 7</div>
+            <div class="questions" style=" text-align:center;"><p>What HTML attribute references an external JavaScript file?</p></div>
+            <div class="listans" style=" align-items: center ">
+                   <button id="aans7"  >A. href</button>
+                   <button id="bans7"  >B. src</button>
+                   <button id="cans7"  >C. class</button>
+                   <button id="dans7"  >D. index</button>
+                   correctAnswer: "b"
+               </div>
+               <br>     
+               <h3 id="result7"></h3>
+                              
+               </div>   
+        </div>
+        
+        
+        <a class="next" onclick="plusSlides(1)">Next</a>
+        
+        </div>
+        <br>
+        <div class="myQuestions">
+       
+        <div id="fifthscorePage">
+            <div id="scoreheader">
+                <h4>Initials</h4>
+                <h4>Score</h4>
+            </div>
+            <input type="text" size = "30" placeholder="Enter you initials" id="initials"/>           
+        </div>
+        <div id="sixthLTpage">
+            <button id="submitScore">Submit Score</button>   
+            <button id="play" onclick="plusSlides(1)">Start again</button>
+            <button id="clear" onclick="clear()">Clear scores</button>
+        </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
